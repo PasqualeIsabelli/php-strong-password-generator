@@ -2,7 +2,6 @@
 include 'functions.php';
 ?>
 
-
 <!DOCTYPE html>
 <html lang="it">
 
@@ -53,9 +52,9 @@ include 'functions.php';
         <button type="submit" class="btn btn-light">Generate</button>
       </div>
     </form>
-    <div class="d-flex justify-content-evenly">
-      <h4 class="fw-bold">La lunghezza che hai selezionato è di: <span class="text-danger"><?php echo $password_length ?></span> caratteri</h4>
-      <h4 class="fw-bold">La password generata è: <span class="text-danger bg-dark px-3 py-2"><?php echo $password_generate ?></span></h4>
+    <div class="">
+      <h4 class="fw-bold fs-5">La lunghezza che hai selezionato è di: <span class="text-danger"><?php echo $password_length ?></span> caratteri</h4>
+      <h4 class="fw-bold fs-5">La password generata è: <span class="text-danger bg-dark px-2 py-1"><?php echo $password_generate ?></span></h4>
     </div>
   </div>
 </body>
