@@ -23,7 +23,7 @@ include 'functions.php';
       <h3 class="fw-bold">Seleziona la lunghezza della password da generare:</h3>
       <div class="d-flex justify-content-evenly mt-4">
         <select style="width: auto;" class="form-select" name="password_length">
-          <option hidden value="not_selected">Password length</option>
+          <option hidden value="0">Password length</option>
           <option value="1">1 character</option>
           <option value="2">2 characters</option>
           <option value="3">3 characters</option>
